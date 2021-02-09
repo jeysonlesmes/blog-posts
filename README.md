@@ -43,6 +43,11 @@ php artisan migrate
 php artisan test
 ```
 
+- If you want to feed the posts you are able to execute the next command to import some posts the times that you want
+```
+php artisan import:posts
+```
+
 - To exit the docker container you can run:
 ```
 exit
